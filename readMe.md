@@ -11,10 +11,10 @@ This project provides a modern, responsive "Coming Soon" landing page that you c
 
 ## Files / Themes
 
-- **`index.html`** — Default theme (light card with Poppins font).
-- **`index-dark.html`** — Dark theme variant (uses `styles-dark.css`).
-- **`index-modern.html`** — Modern/bright variant (uses `styles-modern.css`).
-- **`demo.html`** - this shows all of the themes of the coming soon pages and links to them (uses `css/demo.css`)
+- **`default_design.html`** — Default theme (light card with Poppins font).
+- **`dark_design.html`** — Dark theme variant (uses `styles-dark.css`).
+- **`modern_design.html`** — Modern/bright variant (uses `styles-modern.css`).
+- **`index.html`** - this shows all of the themes of the coming soon pages and links to them (uses `css/demo.css`)
 - **`css/styles.css`** — Default theme styles.
 - **`css/styles-dark.css`** — Dark theme styles.
 - **`css/styles-modern.css`** — Modern theme styles.
