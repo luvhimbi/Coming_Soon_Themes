@@ -1,0 +1,73 @@
+:root {
+  --bg: #071026;
+  --card: #0b1220;
+  --muted: #9aa3b2;
+  --accent: #7c3aed;
+  --accent-2: #6ee7b7;
+}
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+  font-family: "Poppins", system-ui, -apple-system, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial;
+  background: var(--bg);
+  color: white;
+}
+
+.dark-bg {
+  background: var(--bg);
+}
+
+.dark-card {
+  background: var(--card);
+  border: 1px solid rgba(255, 255, 255, 0.04);
+  color: white;
+}
+
+#site-logo-dark {
+  height: 56px;
+  filter: none;
+}
+
+.time-box {
+  min-width: 86px;
+  padding: 10px 12px;
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.02);
+  border: 1px solid rgba(255, 255, 255, 0.03);
+  box-shadow: none;
+}
+
+.time-number {
+  font-size: 1.6rem;
+  font-weight: 700;
+  color: var(--accent);
+}
+.lead{
+  color: white;
+}
+
+.time-label {
+  font-size: 0.8rem;
+  color: var(--muted);
+  margin-top: 4px;
+}
+
+.form-dark {
+  background: rgba(255, 255, 255, 0.02);
+  border: 1px solid rgba(255, 255, 255, 0.04);
+  color: #e6eef8;
+}
+
+.form-dark::placeholder {
+  color: rgba(230, 238, 248, 0.5);
+}
+
+.btn-dark {
+  background: var(--accent);
+  border: none;
+  color: #fff;
+  box-shadow: none;
+}

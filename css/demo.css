@@ -1,0 +1,27 @@
+  body {
+        font-family: "Poppins", system-ui, sans-serif;
+        background: #f8fafc;
+        color: #222;
+      }
+      .theme-demo-card {
+        background: #fff;
+        border-radius: 16px;
+        box-shadow: 0 4px 24px rgba(0, 0, 0, 0.06);
+        padding: 2rem;
+        margin-bottom: 2.5rem;
+      }
+      .theme-title {
+        font-size: 1.5rem;
+        font-weight: 700;
+        margin-bottom: 1rem;
+      }
+      .theme-desc {
+        color: #6c757d;
+        margin-bottom: 1.5rem;
+      }
+      .theme-img {
+        max-width: 100%;
+        border-radius: 12px;
+        border: 1px solid #e5e7eb;
+        box-shadow: 0 2px 12px rgba(0, 0, 0, 0.04);
+      }
